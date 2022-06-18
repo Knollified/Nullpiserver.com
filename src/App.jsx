@@ -12,7 +12,7 @@ const App = () => {
       <div className='gradient__bg'>
         <Header />
       </div>
-      <h1>Under Construction</h1>
+      <h1>...More Coming Soon...</h1>
     </div>
   );
 }
