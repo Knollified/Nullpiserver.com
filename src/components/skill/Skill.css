@@ -39,11 +39,11 @@
 }
 
 .nullpi__skills-container_skill-image img {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .nullpi__skills-container__skill-title h1 {
         font-size: 14px;
         line-height: 22px;
@@ -51,4 +51,5 @@
     .nullpi__skills-container__skill {
         margin: 1rem 0;
     }
+    
 }
