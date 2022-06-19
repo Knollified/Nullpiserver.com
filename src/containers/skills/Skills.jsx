@@ -40,6 +40,10 @@ const skillsDataTwo = [
 ];
 const skillsDataThree = [
   {
+    title: 'HTML/CSS',
+    image: htmlcss,
+  },
+  {
     title: 'Git',
     image: git,
   },
@@ -50,10 +54,6 @@ const skillsDataThree = [
   {
     title: 'Apache2',
     image: apache2,
-  },
-  {
-    title: 'HTML/CSS',
-    image: htmlcss,
   },
 ];
 const skillsDataFour = [
