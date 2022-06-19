@@ -1,4 +1,4 @@
-.nullpi__projects-container__project {
+.nullpi__points-container__point {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     margin: 1rem;
 }
 
-.nullpi__projects-container__project-title {
+.nullpi__points-container__point-title {
     flex: 1;
     max-width: 180px;
     margin-right: 2rem;
 }
 
-.nullpi__projects-container__project-title h1 {
+.nullpi__points-container__point-title h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 18px;
@@ -23,7 +23,7 @@
     color: #fff;
 }
 
-.nullpi__projects-container__project-title div {
+.nullpi__points-container__point-title div {
     width: 38px;
     height: 3px;
     background: var(--gradient-bar);
@@ -31,13 +31,13 @@
     margin-bottom: 0.25rem;
 }
 
-.nullpi__projects-container_project-text {
+.nullpi__points-container_point-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.nullpi__projects-container_project-text p {
+.nullpi__points-container_point-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -46,17 +46,17 @@
 }
 
 @media screen and (max-width: 550px) {
-    .nullpi__projects-container__project-title h1 {
+    .nullpi__points-container__point-title h1 {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .nullpi__projects-container_project-text p {
+    .nullpi__points-container_point-text p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .nullpi__projects-container__project {
+    .nullpi__points-container__point {
         margin: 1rem 0;
     }
 }
