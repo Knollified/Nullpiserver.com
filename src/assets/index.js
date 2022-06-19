@@ -9,7 +9,7 @@ import nodejs from './nodejs.png';
 import php from './php.png';
 import python from './python.png';
 import react from './react.png';
-import rpi from  './rpi.png';
+import apache2 from  './apache2.png';
 import swift from './swift.png';
 
-export{cplus,git,htmlcss,java,js,mariadb,mysql,nodejs,php,python,react,rpi,swift}
+export{cplus,git,htmlcss,java,js,mariadb,mysql,nodejs,php,python,react,apache2,swift}

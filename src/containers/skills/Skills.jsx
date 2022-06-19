@@ -1,63 +1,65 @@
 import React from 'react';
 import Skill from '../../components/skill/Skill';
 import './Skills.css';
-import {cplus,git,htmlcss,java,js,mariadb,mysql,nodejs,php,python,react,rpi,swift} from '../../assets/'
+import {cplus,git,htmlcss,java,js,mariadb,mysql,nodejs,php,python,react,apache2,swift} from '../../assets/'
 const skillsData = [
   {
     title: 'C++',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: cplus,
   },
   {
     title: 'Java',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: git,
   },
   {
     title: 'Python',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: python,
   },
   {
     title: 'Javascript',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
-  },
-  {
-    title: 'HTML/CSS',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: js,
   },
 ];
 const skillsDataTwo = [
   {
     title: 'React',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: react,
   },
   {
     title: 'MySQL',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: mysql,
   },
   {
     title: 'MariaDB',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: mariadb,
   },
   {
     title: 'Php',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
-  },
-  {
-    title: 'Swift',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: php,
   },
 ];
 const skillsDataThree = [
   {
     title: 'Git',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: git,
   },
   {
     title: 'NodeJs',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: nodejs,
   },
   {
     title: 'Apache2',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    image: apache2,
+  },
+  {
+    title: 'HTML/CSS',
+    image: htmlcss,
+  },
+];
+const skillsDataFour = [
+  {
+    title: 'Swift',
+    image: swift,
   },
 ];
 
@@ -69,17 +71,17 @@ const Skills = () => {
     </div>
     <div className="nullpi__skills-container">
       {skillsData.map((item, index) => (
-        <Skill title={item.title} text={item.text} key={item.title + index} />
+        <Skill title={item.title} image={item.image} key={item.title + index} />
       ))}
     </div>
     <div className="nullpi__skills-container">
       {skillsDataTwo.map((item, index) => (
-        <Skill title={item.title} text={item.text} key={item.title + index} />
+        <Skill title={item.title} image={item.image} key={item.title + index} />
       ))}
     </div>
     <div className="nullpi__skills-container">
       {skillsDataThree.map((item, index) => (
-        <Skill title={item.title} text={item.text} key={item.title + index} />
+        <Skill title={item.title} image={item.image} key={item.title + index} />
       ))}
     </div>
   </div>

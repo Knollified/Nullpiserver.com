@@ -31,18 +31,16 @@
     margin-bottom: 0.25rem;
 }
 
-.nullpi__skills-container_skill-text {
-    flex: 2;
-    max-width: 390px;
+.nullpi__skills-container_skill-image {
+    flex: 1;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.nullpi__skills-container_skill-text p {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: var(--color-text);
+.nullpi__skills-container_skill-image img {
+    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 550px) {
@@ -50,12 +48,6 @@
         font-size: 14px;
         line-height: 22px;
     }
-
-    .nullpi__skills-container_skill-text p {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
     .nullpi__skills-container__skill {
         margin: 1rem 0;
     }

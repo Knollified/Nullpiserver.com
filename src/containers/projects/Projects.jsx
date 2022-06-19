@@ -4,8 +4,19 @@ import './Projects.css';
 
 const projectsData = [
   {
-    title: 'Null Pi',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'Null Pi: Web Site',
+    link: 'https://nullpiserver.com',
+    text: 'Go to Null Pi Server'
+  },
+  {
+    title: 'The Krypt: Web Game',
+    link: 'https://knollified.github.io/The-Krypt-React/',
+    text: 'Go to The Krypt'
+  },
+  {
+    title: 'Ryko: Discord.js Bot',
+    link: 'https://github.com/Knollified/Ryko',
+    text: 'Go to Ryko'
   },
 ];
 
@@ -17,7 +28,7 @@ const Projects = () => {
     </div>
     <div className="nullpi__projects-container">
       {projectsData.map((item, index) => (
-        <Project title={item.title} text={item.text} key={item.title + index} />
+        <Project title={item.title} text={item.text} link={item.link} key={item.title + index} />
       ))}
     </div>
   </div>
