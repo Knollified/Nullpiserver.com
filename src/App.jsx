@@ -1,6 +1,6 @@
 import './App.css';
-import { Navbar } from './components';
-import { Header } from './containers';
+import { Navbar,Project,Skill } from './components';
+import { Header, Nullpi, About, Projects,Skills, Footer, Contact } from './containers';
 
 const App = () => {
   return (
@@ -8,11 +8,13 @@ const App = () => {
       <div>
         <Navbar />
       </div>
-
       <div className='gradient__bg'>
         <Header />
       </div>
-      <h1>...More Coming Soon...</h1>
+      <Nullpi />
+      <About />
+      <Skills/>
+      <Projects />
     </div>
   );
 }

@@ -16,7 +16,7 @@ const Header = () => (
         </div>
 
         <div className="nullpi__header-image">
-            <img src={logo} />
+            <img src={logo}  alt=""/>
         </div>
     </div>
 );
