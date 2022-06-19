@@ -9,10 +9,10 @@
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 
-    text-align: center;
+    text-align: left;
     margin-right: 5rem;
 }
 
