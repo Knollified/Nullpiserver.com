@@ -9,7 +9,7 @@ const skillsData = [
   },
   {
     title: 'Java',
-    image: git,
+    image: java,
   },
   {
     title: 'Python',
