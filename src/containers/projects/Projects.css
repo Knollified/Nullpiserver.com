@@ -18,7 +18,7 @@
 
 .nullpi__projects-heading h1 {
     font-size: 50px;
-    line-height: 45px;
+    line-height: 75px;
     font-weight: 800;
     font-family: var(--font-family);
 }
@@ -55,6 +55,6 @@
 @media screen and (max-width: 550px) {
     .nullpi__projects-heading h1 {
         font-size: 48px;
-        line-height: 38px;
+        line-height: 45px;
     }
 }

@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
     .nullpi__skills-container__skill-title h1 {
         font-size: 14px;
         line-height: 22px;
