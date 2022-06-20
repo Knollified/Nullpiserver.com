@@ -8,13 +8,13 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_9fetzh5', form.current, 'S3l9vmOC9MJrAeNtL')
+        emailjs.sendForm('service_01ifxdn', 'template_9fetzh5', form.current, 'S3l9vmOC9MJrAeNtL')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
-        form.target.reset();
+        form.current.reset();
     };
 
     return (
