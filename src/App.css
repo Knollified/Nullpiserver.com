@@ -25,16 +25,16 @@ a {
 }
 
 .gradient__bg {
-  background:-moz-linear-gradient(0deg, #0012ff 0%, #097c41 66%,  #00e8ff 100%);
+  background:-moz-linear-gradient(0deg, rgba(91,41,83,1) 22%, rgba(158,141,92,1) 73%, rgba(38,100,149,1) 100%);;
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-linear-gradient(0deg, #0012ff 0%, #097c41 66%,  #00e8ff 100%);
+  background:-webkit-linear-gradient(0deg, rgba(91,41,83,1) 22%, rgba(158,141,92,1) 73%, rgba(38,100,149,1) 100%);
 
   /* opera 11.10+ */
-  background:-o-linear-gradient(0deg, #0012ff 0%, #097c41 66%,  #00e8ff 100%);
+  background:-o-linear-gradient(0deg, rgba(91,41,83,1) 22%, rgba(158,141,92,1) 73%, rgba(38,100,149,1) 100%);
   /* ie 10+ */
-  background:-ms-linear-gradient(0deg, #0012ff 0%, #097c41 66%,  #00e8ff 100%);
+  background:-ms-linear-gradient(0deg, rgba(91,41,83,1) 22%, rgba(158,141,92,1) 73%, rgba(38,100,149,1) 100%);
   /* global 92%+ browsers support */
-  background:linear-gradient(0deg, #0012ff 0%, #097c41 66%,  #00e8ff 100%); 
+  background:linear-gradient(0deg, rgba(91,41,83,1) 22%, rgba(158,141,92,1) 73%, rgba(38,100,149,1) 100%); 
 }
 
 .navbar__bg{
