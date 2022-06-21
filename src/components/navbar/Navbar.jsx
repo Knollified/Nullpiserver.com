@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="nullpi__navbar">
             <div className="nullpi__navbar-links">
                 <div className="nullpi__navbar-links_logo">
-                    <img src={logo} alt=""/>
+                    <img src={logo} alt="" />
                 </div>
                 <div className="nullpi__navbar-links_container">
                     <p><a href="#home">Home</a></p>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="nullpi__navbar-contact">
                 <button type="button" onClick={(e) => {
                     e.preventDefault();
-                    window.location.href="#contact"
+                    window.location.href = "#contact"
                 }}>Contact</button>
             </div>
             <div className="nullpi__navbar-menu">
@@ -40,7 +40,10 @@ const Navbar = () => {
                             <p><a href="#projects">Projects</a></p>
                         </div>
                         <div className="nullpi__navbar-menu_container-links-contact">
-                            <button type="button">Contact</button>
+                            <button type="button" onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = "#contact"
+                            }}>Contact</button>
                         </div>
                     </div>
                 )}
