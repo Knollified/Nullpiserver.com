@@ -37,6 +37,14 @@ a {
   background:linear-gradient(0deg, rgba(91,41,83,1) 22%, rgba(158,141,92,1) 73%, rgba(38,100,149,1) 100%); 
 }
 
+.inverted_gradient__bg {
+  background: rgb(13, 3, 11);
+  background: -moz-linear-gradient(0deg, rgba(13, 3, 11, 1) 22%, rgba(38, 100, 149, 1) 41%, rgba(158, 141, 92, 1) 60%, rgba(91, 41, 83, 1) 96%);
+  background: -webkit-linear-gradient(0deg, rgba(13, 3, 11, 1) 22%, rgba(38, 100, 149, 1) 41%, rgba(158, 141, 92, 1) 60%, rgba(91, 41, 83, 1) 96%);
+  background: linear-gradient(0deg, rgba(13, 3, 11, 1) 22%, rgba(38, 100, 149, 1) 41%, rgba(158, 141, 92, 1) 60%, rgba(91, 41, 83, 1) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d030b", endColorstr="#5b2953", GradientType=1);
+}
+
 .navbar__bg{
   background: var(--gradient-text);
 }

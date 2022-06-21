@@ -16,6 +16,9 @@ const App = () => {
       <Skills/>
       <Projects />
       <Contact />
+      <div className='inverted_gradient__bg'>
+      <Footer />
+      </div>
     </div>
   );
 }
