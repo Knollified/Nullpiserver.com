@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 650px) {
     .nullpi__footer-heading h1 {
-        font-size: 48px;
+        font-size: 36px;
         line-height: 60px;
     }
     .nullpi__footer-content p {
@@ -65,7 +65,7 @@
 }
 @media screen and (max-width: 550px) {
     .nullpi__footer-heading h1 {
-        font-size: 48px;
+        font-size: 36px;
         line-height: 48px;
     }
     .nullpi__footer-content p {
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 490px) {
     .nullpi__footer-heading h1 {
-        font-size: 48px;
+        font-size: 36px;
         line-height: 48px;
     }
     .nullpi__footer-content p {
