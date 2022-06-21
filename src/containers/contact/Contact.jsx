@@ -18,14 +18,12 @@ const Contact = () => {
     };
 
     return (
-        <div className='nullpi__contact section__margin' id='contact'>
-
+        <div className='nullpi__contact section__padding' id='contact'>
             <div className="nullpi__contact-content">
                 <div className="nullpi__contact-text">
                     <h1 className='gradient__text'>Contact</h1>
                 </div>
             </div>
-
             <div className='nullpi__contact-form'>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='nullpi__contact-form__label'>
@@ -41,10 +39,8 @@ const Contact = () => {
                         <textarea name="message" />
                         <input type="submit" value="Send" />
                     </div>
-
                 </form>
             </div>
-
         </div>
     );
 };

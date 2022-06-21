@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem ;
 
     background: var(--color-footer);
 
@@ -33,7 +32,7 @@
 .nullpi__contact-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 50px;
     line-height: 75px;
     letter-spacing: -0.04em;
 }
@@ -43,9 +42,9 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
-    margin-top: 1.5rem;
     flex-direction: column;
     display: flex;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -58,8 +57,8 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .nullpi__contact-form textarea {
     font-family: var(--font-family);
@@ -85,11 +84,14 @@
 }
 
 @media screen and (max-width: 650px) {
-    .nullpi__contact-form input {
+
+    .nullpi__contact-form label, .nullpi__contact-form input {
+        font-size: 15px;
         height: 25px;
         width: 250px;
     }
     .nullpi__contact-form textarea {
+        font-size: 15px;
         height: 150px;
         width: 250px;
     }

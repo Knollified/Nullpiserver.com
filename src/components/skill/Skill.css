@@ -50,6 +50,14 @@
     }
     .nullpi__skills-container__skill {
         margin: 1rem 0;
+        
     }
-    
+    .nullpi__skills-container {
+        flex-wrap: wrap;
+        
+    }
+    .nullpi__skills-container_skill-image img {
+        height: 50%;
+        width: 50%;
+    }
 }

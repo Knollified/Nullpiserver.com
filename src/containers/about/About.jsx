@@ -9,6 +9,7 @@ const About = () => (
       <div className="nullpi__about-image">
             <img src={Knoll} alt="" />
         </div>
+        <div />
       <div className="nullpi__about-content">
         <div className="nullpi__about-text">
             <h1 className='gradient__text'>About Me</h1>
