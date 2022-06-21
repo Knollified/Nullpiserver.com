@@ -18,7 +18,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='nullpi__contact section__margin'>
+        <div className='nullpi__contact section__margin' id='contact'>
 
             <div className="nullpi__contact-content">
                 <div className="nullpi__contact-text">

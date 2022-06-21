@@ -21,7 +21,10 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="nullpi__navbar-contact">
-                <button type="button">Contact</button>
+                <button type="button" onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href="#contact"
+                }}>Contact</button>
             </div>
             <div className="nullpi__navbar-menu">
                 {toggleMenu

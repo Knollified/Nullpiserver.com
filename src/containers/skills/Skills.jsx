@@ -69,6 +69,8 @@ const Skills = () => {
     <div className="nullpi__skills-heading">
       <h1 className="gradient__text">Skills</h1>
     </div>
+
+    <div className="nullpi__skills-container__main">
     <div className="nullpi__skills-container">
       {skillsData.map((item, index) => (
         <Skill title={item.title} image={item.image} key={item.title + index} />
@@ -83,6 +85,7 @@ const Skills = () => {
       {skillsDataThree.map((item, index) => (
         <Skill title={item.title} image={item.image} key={item.title + index} />
       ))}
+    </div>
     </div>
   </div>
   )

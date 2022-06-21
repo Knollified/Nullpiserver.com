@@ -4,7 +4,7 @@ import Nullpi  from '../nullpi/Nullpi';
 import './About.css';
 
 const About = () => (
-  <div className="nullpi__about section__padding" id="about">
+  <div className="nullpi__about section__margin" id="about">
     
       <div className="nullpi__about-image">
             <img src={Knoll} alt="" />
